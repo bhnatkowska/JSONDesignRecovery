@@ -1,0 +1,158 @@
+[
+  {
+    "BankNr" : "111",
+    "Name": "City Bank",
+    "Address":
+    {
+      "Town": "Cracow",
+      "Street": "Chopina",
+      "Number": "12A"
+    },
+    "Accounts": [
+      {
+        "AccountID" : 1,
+        "Balance" : 123.35,
+        "Status": "Active",
+        "BankCustomer": {
+          "CustomerId": 1,
+          "DateFrom" : "2021-02-02",
+          "Info": null,
+          "PersonId": 7,
+          "FirstName": ["Alicia"],
+          "LastName": "Shen",
+          "Phone": "222345679",
+          "Gender": "F",
+          "Address": []
+        }
+      },
+      {
+        "AccountID" : 2,
+        "Balance" : 234.0,
+        "Status": "Active",
+        "BankCustomer": {
+          "CustomerId": 2,
+          "DateFrom" : "2022-02-02",
+          "Info": null,
+          "PersonId": 9,
+          "FirstName": ["Sam"],
+          "LastName": "Smith",
+          "Phone": null,
+          "Gender": "B",
+          "Address": []
+        }
+      },
+      {
+        "AccountID" : 3,
+        "Balance" : 0.0,
+        "Status" : "Invactive",
+        "BankCustomer": {
+          "CustomerId": 3,
+          "DateFrom": "2000-05-01",
+          "Info" : "Info1",
+          "PersonId": 1,
+          "FirstName": [
+            "Evan"
+          ],
+          "LastName": "James",
+          "Phone": "012345679",
+          "Gender": "M",
+          "address": [
+            {
+              "Town": "Geneva",
+              "Street": "Nova",
+              "Number": "12A"
+            },
+            {
+              "Town": "Berlin",
+              "Street": "None 12A",
+              "Number": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "BankNr" : "222",
+    "Name": "Santander Bank",
+    "Address":
+    {
+      "Town": "Cracow",
+      "Street": "Chopina",
+      "Number": "12A"
+    },
+    "Accounts": [
+      {
+        "AccountID" : 1,
+        "Balance" : 1454.0,
+        "Status": "Active",
+        "BankCustomer": {
+          "CustomerId": 3,
+          "DateFrom": "2000-05-01",
+          "Info" : "Info1",
+          "PersonId": 1,
+          "FirstName": [
+            "Evan"
+          ],
+          "LastName": "James",
+          "Phone": "012345679",
+          "Gender": "M",
+          "address": [
+            {
+              "Town": "Geneva",
+              "Street": "Nova",
+              "Number": "12A"
+            },
+            {
+              "Town": "Berlin",
+              "Street": "None 12A",
+              "Number": null
+            }
+          ]
+        }
+      },
+      {
+        "AccountID" : 2,
+        "Balance" : 5000.0,
+        "Status" : "Active",
+        "BankCustomer": {
+          "CustomerId": 2,
+          "DateFrom" : "2021-02-02",
+          "Info": null,
+          "PersonId": 12,
+          "FirstName": "Eve",
+          "LastName": "Novak",
+          "Gender": "F",
+          "Phone": null,
+          "Address": {
+            "Town": "Warsaw",
+            "Street": null,
+            "Number": null
+          }
+        }
+      },
+      {
+        "AccountID" : 33,
+        "Balance" : 0.0,
+        "Status" : null,
+        "BankCustomer": {
+          "CustomerId": 33,
+          "DateFrom": "2020-01-01",
+          "Info": null,
+          "PersonId": 6,
+          "FirstName": "Russell",
+          "LastName": "Shen",
+          "Gender": "M",
+          "Phone": null,
+          "Address": [
+            {
+              "Town": "Paris",
+              "Street": "Flowers",
+              "Number": "5/7"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+@startuml
+
+
+class cl_2{
+studentid:String[1]
+secondname:String[0..*]
+firstname:String[1..*]
+
+}
+
+
+class course{
+name:String[1]
+courseid:Integer[1]
+
+}
+
+cl_2 "1..*" --> "1..*" course:"courses"
+@enduml

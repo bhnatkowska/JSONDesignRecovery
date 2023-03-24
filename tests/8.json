@@ -1,0 +1,102 @@
+  [
+    {
+      "date": "1970-05-01",
+      "town": null,
+      "husband": {
+        "PersonId": 1,
+        "FirstName": [
+          "Evan"
+        ],
+        "LastName": "James",
+        "Phone": "012345679",
+        "Gender": "M",
+        "address": [
+          {
+            "Town": "Geneva",
+            "Street": "Nova",
+            "Number": "12A"
+          },
+          {
+            "Town": "Berlin",
+            "Street": "None 12A",
+            "Number": null
+          }
+        ]
+      },
+      "wife": {
+        "PersonId": 2,
+        "FirstName": [
+          "Emma",
+          "Maria"
+        ],
+        "LastName": "James",
+        "Phone": null,
+        "Gender": "F",
+        "Address": [{
+            "Town": "Geneva",
+            "Street": "Nova",
+            "Number": "12A"
+          }]
+      },
+      "children": [
+        {
+          "PersonId": 3,
+          "FirstName": [
+            "Carol",
+            "Gustav"
+          ],
+          "LastName": "James",
+          "Phone": null,
+          "Gender": "F",
+          "Address": []
+        },
+        {
+          "PersonId": 4,
+          "FirstName": [
+            "Ana"
+          ],
+          "LastName": "James",
+          "Phone": null,
+          "Gender": "F",
+          "Address": []
+        },
+        {
+          "PersonId": 4,
+          "FirstName": [
+            "Gina"
+          ],
+          "LastName": "James",
+          "Phone": "112345679",
+          "Gender": "F",
+          "Address": []
+        }
+      ]
+    },
+    {
+      "date": null,
+      "town": "London",
+      "husband": {
+        "PersonId": 6,
+        "FirstName": ["Russell"],
+        "LastName": "Shen",
+        "Gender": "M",
+        "Phone": null,
+        "Address": [
+          {
+            "Town": "Paris",
+            "Street": "Flowers",
+            "Number": "5/7"
+          }
+        ]
+      },
+      "wife": {
+        "PersonId": 7,
+        "FirstName": ["Alicia"],
+        "LastName": "Shen",
+        "Phone": "222345679",
+        "Gender": "F",
+        "Address": []
+      },
+      "children": []
+    }
+  ]

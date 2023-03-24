@@ -1,0 +1,11 @@
+[{ "courseID": 1, "name": "Math",
+    "students": [
+      {"studentID": "1S", "firstName": ["Ann", "Eve"], 
+       "secondName": ["Smith"]},
+      {"studentID": "2S", "firstName": ["Shahir"], "secondName": []}]},
+  { "courseID": 2, "name": "Music",
+    "students": [
+      {"studentID": "1S", "firstName": ["Ann", "Eve"], 
+       "secondName": ["Smith"]},
+      {"studentID": "2S", "firstName": ["Shahir"], "secondName": []}]}
+]

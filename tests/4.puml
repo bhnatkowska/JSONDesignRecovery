@@ -1,0 +1,10 @@
+@startuml
+
+
+class cl_1{
+grades:Object[1..*]
+name:String[1]
+
+}
+
+@enduml

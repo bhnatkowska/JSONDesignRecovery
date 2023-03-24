@@ -1,0 +1,43 @@
+@startuml
+
+
+class cl_2{
+banknr:String[1]
+name:String[1]
+
+}
+
+
+class address{
+street:String[0..1]
+number:String[0..1]
+town:String[1]
+
+}
+
+
+class bankcustomer{
+datefrom:String[1]
+lastname:String[1]
+phone:String[0..1]
+gender:String[1]
+info:String[0..1]
+personid:Integer[1]
+firstname:String[1..*]
+customerid:Integer[1]
+
+}
+
+
+class account{
+accountid:Integer[1]
+balance:Real[1]
+status:String[0..1]
+
+}
+
+cl_2 "*" --> "1" address:"address"
+cl_2 "1" --> "1..*" account:"accounts"
+bankcustomer "*" --> "*" address:"address"
+account "1..*" --> "1" bankcustomer:"bankcustomer"
+@enduml

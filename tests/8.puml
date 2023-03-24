@@ -1,0 +1,32 @@
+@startuml
+
+
+class cl_2{
+date:String[0..1]
+town:String[0..1]
+
+}
+
+
+class address{
+number:String[0..1]
+town:String[1]
+street:String[1]
+
+}
+
+
+class cl_23{
+firstname:String[1..*]
+phone:String[0..1]
+personid:Integer[1]
+gender:String[1]
+lastname:String[1]
+
+}
+
+cl_2 "0..1" --> "1" cl_23:"husband"
+cl_2 "0..1" --> "*" cl_23:"children"
+cl_2 "0..1" --> "1" cl_23:"wife"
+cl_23 "1..*" --> "*" address:"address"
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+class cl_1{
+grades:Integer[1..*]
+
+}
+@enduml

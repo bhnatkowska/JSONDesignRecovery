@@ -1,0 +1,7 @@
+@startuml
+class cl_1{
+at_0:Integer[1]
+at_1:Integer[1]
+
+}
+@enduml
