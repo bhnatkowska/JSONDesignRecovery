@@ -18,7 +18,10 @@ To run the tool:
 2. Optionally downolad the tests folder
 2. Open a console window and change the folder to that one, the JSONConverter exists
 3. Write:
+
   java -jar JSONConverter.jar path_to_json
+
 for example:
+
   java -jar JSONConverter.jar tests/1.json
   
